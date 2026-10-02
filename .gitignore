@@ -1,0 +1,33 @@
+# Environment & Secrets
+.env
+!.env.example
+*.json
+!credentials.example.json
+
+# Databases & local tokens
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Audio / Voice test artifacts
+*.wav
+*.mp3
+*.ogg
+voice-response-headers.txt
+
+# Python cache & virtualenv
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+.pytest_cache/
+.coverage
+
+# IDE & agent artifacts
+.idea/
+.vscode/
+.codebase-memory/
+*.log
+agent.md
+scratch/
